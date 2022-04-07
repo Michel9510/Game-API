@@ -19,6 +19,10 @@
     "morgan": "^1.10.0",
     "url": "git+https://github.com/Michel9510/Game-API.git"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michel9510/Game-API.git"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
