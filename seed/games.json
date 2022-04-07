@@ -1,6 +1,7 @@
 [
   {
     "_id": "1",
+    "image": "pokemonArceus.jpq",
     "title": "Pokemon Legend: Arceus",
     "genre": "Action role-playing",
     "year": "2022",
@@ -8,6 +9,7 @@
   },
   {
     "_id": "2",
+    "image": "PokemonUnite.webp",
     "title": "Pokemon Unite",
     "genre": "Multiplayer online battle arena, real-time strategy",
     "year": "2021",
@@ -15,6 +17,7 @@
   },
   {
     "_id": "3",
+    "image": "MW2.png",
     "title": "Call of Duty: Modern Warfare 2",
     "genre": "RPG, Multiplayer, Action",
     "year": "2009",
@@ -22,6 +25,7 @@
   },
   {
     "_id": "4",
+    "image": "BO.jpg",
     "title": "Call of Duty: Black Ops",
     "genre": "RPG, Multiplayer, Action",
     "year": "2010",
@@ -29,6 +33,7 @@
   },
   {
     "_id": "5",
+    "image": "badcompany2.jpg",
     "title": "Battlefield: Bad Company 2",
     "genre": "RPG, Multiplayer, Action",
     "year": "2010",
@@ -36,6 +41,7 @@
   },
   {
     "_id": "6",
+    "image": "bf4-pc.jpg",
     "title": "Battlefield 4",
     "genre": "RPG, Multiplayer, Action",
     "year": "2013",
@@ -43,6 +49,7 @@
   },
   {
     "_id": "7",
+    "image": "Brotherhood.jpg",
     "title": "Assassin's Creed: Brotherhood",
     "genre": "Open world, Action, Stealth, Adventure",
     "year": "2010",
@@ -50,6 +57,7 @@
   },
   {
     "_id": "8",
+    "image": "Blackflag.jpg",
     "title": "Assassin's Creed IV: Black Flag",
     "genre": "Open world, Action, Stealth, Adventure",
     "year": "2013",
@@ -57,6 +65,7 @@
   },
   {
     "_id": "9",
+    "image": "rometotal.jpg",
     "title": "Rome Total War",
     "genre": "Strategy, Open world",
     "year": "2004",
@@ -64,6 +73,7 @@
   },
   {
     "_id": "10",
+    "image": "Age1.jpg",
     "title": "Age of Empires",
     "genre": "Strategy, Open world",
     "year": "1997",

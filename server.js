@@ -1,16 +1,27 @@
-const express = require("express")
-const app = express()
-const mongoose = require("mongoose")
+import db from "./db/connection";
+import routes from "./routes/index";
+import express from "express";
+import cors from "cors";
+import logger from "morgan";
+import chalk from "chalk";
 
-mongoose.connect("mongodb://localhost:3000/Games", { useNewUrlParser: true })
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-const db = mongoose.connection
-db.on("error", (error) => console.error(error))
-db.once("open", () => console.log("connected to Database"))
+app.use(express.json());
+app.use(cors());
+app.use(logger("dev"));
 
+app.use("/api", routes);
 
-app.listen(3000, () => console.log("server started"))
-
-app.use(express.json())
-
-app.use("/game", require("./routes/games"))
+db.on("connected", () => {
+  console.clear();
+  console.log(chalk.blue("connected to MongoDB"));
+  app.listen(PORT, () => {
+    process.env.NODE_ENV === "production"
+      ? console.log(`Express server running in production on port ${PORT}\n\n`) :
+      console.log(
+        `Express server running in development on: http://localhost:${PORT}`
+      );
+  });
+});

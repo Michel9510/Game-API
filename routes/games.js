@@ -1,25 +1,12 @@
-const express = require("express")
-const router = express.Router()
+import { Router } from "express";
+import * as controllers from "../controllers/games"
 
-// Getting all
-router.get("/", (req, res) => {
+const router = Router();
 
-})
-// Getting one
-router.get("/:id", (req, res) => {
-  res.send("Hello world")
-})
-// Creatinbg one
-router.get("/", (req, res) => {
+router.get("/games", controllers.getGames);
+router.get("/games/:id", controllers.getGame);
+router.post("/games", controllers.createGame);
+router.put("/games/:id", controllers.updateGame);
+router.delete("/games/:id", controllers.deleteGame);
 
-})
-// Updating one
-router.patch("/:id", (req, res) => {
-
-})
-// Deleting one
-router.delete("/:id", (req, res) => {
-
-})
-
-module.exports = router
+export default router;
