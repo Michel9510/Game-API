@@ -1,4 +1,4 @@
-import Game from "../models/game";
+import Game from "../models/game.js";
 
 export const getGames = async (req, res) => {
   try {
@@ -13,7 +13,7 @@ export const getGames = async (req, res) => {
 export const getGame = async (req, res) => {
   try {
     const { id } = req.params;
-    const game = await Game.findById(id).populate("Games");
+    const game = await Game.findById(id);
 
     if (game) {
       return res.json(game);

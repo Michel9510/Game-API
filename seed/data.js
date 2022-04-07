@@ -1,5 +1,5 @@
-import db from "../db/connection";
-import Game from "../models/game";
+import db from "../db/connection.js";
+import Game from "../models/game.js";
 import games from "./games.json" assert {type: "json"};
 
 const insertData = async () => {

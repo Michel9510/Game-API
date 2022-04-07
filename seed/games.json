@@ -1,6 +1,5 @@
 [
   {
-    "_id": "1",
     "image": "pokemonArceus.jpq",
     "title": "Pokemon Legend: Arceus",
     "genre": "Action role-playing",
@@ -8,7 +7,6 @@
     "description": "Pokémon Legends: Arceus is an action role-playing game that preserves the core gameplay of past entries in the main line series. The player is able to roam freely across the game map, divided into five large areas of individual biomes."
   },
   {
-    "_id": "2",
     "image": "PokemonUnite.webp",
     "title": "Pokemon Unite",
     "genre": "Multiplayer online battle arena, real-time strategy",
@@ -16,7 +14,6 @@
     "description": "Pokémon Unite is a multiplayer online battle arena game, with standard matches consisting of two teams of five players. Each match is time-limited, and the team with the highest total score by the end of each match wins. There is also quick battles, which has 4 people per team, and is 5 minutes long."
   },
   {
-    "_id": "3",
     "image": "MW2.png",
     "title": "Call of Duty: Modern Warfare 2",
     "genre": "RPG, Multiplayer, Action",
@@ -24,7 +21,6 @@
     "description": "Call of Duty: Modern Warfare 2 is a 2009 first-person shooter game developed by Infinity Ward and published by Activision. It is the sixth installment in the Call of Duty series and the direct sequel to Call of Duty 4: Modern Warfare."
   },
   {
-    "_id": "4",
     "image": "BO.jpg",
     "title": "Call of Duty: Black Ops",
     "genre": "RPG, Multiplayer, Action",
@@ -32,7 +28,6 @@
     "description": "Call of Duty: Black Ops is a 2010 first-person shooter game developed by Treyarch and published by Activision. It was released worldwide in November 2010 for Microsoft Windows, the PlayStation 3, Wii, and Xbox 360, with a separate version for Nintendo DS developed by n-Space."
   },
   {
-    "_id": "5",
     "image": "badcompany2.jpg",
     "title": "Battlefield: Bad Company 2",
     "genre": "RPG, Multiplayer, Action",
@@ -40,7 +35,6 @@
     "description": "Battlefield: Bad Company 2 is a first-person shooter video game developed by the Swedish firm DICE and published by Electronic Arts for Microsoft Windows, PlayStation 3, Xbox 360, iOS and Kindle Fire systems. It is a direct sequel to Battlefield: Bad Company and is part of the Battlefield game series."
   },
   {
-    "_id": "6",
     "image": "bf4-pc.jpg",
     "title": "Battlefield 4",
     "genre": "RPG, Multiplayer, Action",
@@ -48,7 +42,6 @@
     "description": "Battlefield 4™ features an intense and character-driven single player campaign, fused with the strongest elements of multiplayer. Pilot vehicles, take advantage of the dynamic destructible environments and don't let your squad down."
   },
   {
-    "_id": "7",
     "image": "Brotherhood.jpg",
     "title": "Assassin's Creed: Brotherhood",
     "genre": "Open world, Action, Stealth, Adventure",
@@ -56,7 +49,6 @@
     "description": "Assassin's Creed: Brotherhood is a 2010 action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. It is the third major installment in the Assassin's Creed series, and the second chapter in the Ezio Trilogy, as a direct sequel to 2009's Assassin's Creed II."
   },
   {
-    "_id": "8",
     "image": "Blackflag.jpg",
     "title": "Assassin's Creed IV: Black Flag",
     "genre": "Open world, Action, Stealth, Adventure",
@@ -64,7 +56,6 @@
     "description": "Assassin's Creed IV: Black Flag is an action-adventure, stealth game set in an open world environment and played from a third-person perspective. The game features three main cities; Havana, Kingston, and Nassau, which reside under Spanish, British, and pirate influence, respectively."
   },
   {
-    "_id": "9",
     "image": "rometotal.jpg",
     "title": "Rome Total War",
     "genre": "Strategy, Open world",
@@ -72,7 +63,6 @@
     "description": "The game is the third title in The Creative Assembly's Total War series. The game's main campaign takes place from 270 BC to 14 AD showcasing the rise and final centuries of the Republican period and the early decades of the imperial period of Ancient Rome."
   },
   {
-    "_id": "10",
     "image": "Age1.jpg",
     "title": "Age of Empires",
     "genre": "Strategy, Open world",

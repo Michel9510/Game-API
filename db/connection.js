@@ -1,8 +1,8 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 import chalk from "chalk";
 
 const MONGODB_URI =
-  process.env.PROD_MONGODB || "mongodb://localhost:3000/Games";
+  process.env.PROD_MONGODB || "mongodb://127.0.0.1:27017/games-API";
 
 mongoose.set("returnOriginal", false);
 
