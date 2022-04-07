@@ -1,7 +1,7 @@
 # Game-API
 A brand new API about video games
 Site
-Link to API:
+Link to API: https://github.com/Michel9510/Game-API.git
 
 # MVP
 1. Search for games
