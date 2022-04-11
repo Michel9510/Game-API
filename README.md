@@ -2,6 +2,7 @@
 A brand new API about video games
 Site
 Link to API: https://github.com/Michel9510/Game-API.git
+
 Heroku: https://game-api7.herokuapp.com/api/games
 
 # Description
