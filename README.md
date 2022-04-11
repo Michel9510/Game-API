@@ -3,6 +3,10 @@ A brand new API about video games
 Site
 Link to API: https://github.com/Michel9510/Game-API.git
 
+# Description
+
+The API will print out the information of one of the games in the db, it will show basic information like year, description of the game and the genre.
+
 # MVP
 1. Search for games
 2. get basic information from the game
