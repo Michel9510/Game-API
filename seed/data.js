@@ -4,7 +4,7 @@ import games from "./games.json" assert {type: "json"};
 
 const insertData = async () => {
   //this is to reset the db
-  db.dropDatabase();
+  await db.dropDatabase();
 
   // insert the games into the db
   await Game.insertMany(games);
